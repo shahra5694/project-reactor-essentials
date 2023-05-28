@@ -1,0 +1,40 @@
+HELP.md
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+*.jks
+*.pfx
+*.log.*
+*.log
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+K
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+/logs
+
+
+## Logback
+logPath_IS_UNDEFINED
+
+## Local
+*-local.properties
+
+springboot.pm

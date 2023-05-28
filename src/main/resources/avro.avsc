@@ -1,0 +1,22 @@
+{
+ "type" : "record",
+ "name" : "Avro",
+ "fields" : [
+   {
+     "name" : "id",
+     "type" : "string"
+   },
+   {
+       "name" : "name",
+       "type" : "string"
+   },
+   {
+     "name" : "salary",
+     "type" : "float"
+   },
+   {
+     "name" : "isActive",
+     "type" : "boolean"
+   }
+ ]
+}
