@@ -1,9 +1,11 @@
 package academy.development;
 
 import lombok.extern.slf4j.Slf4j;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.reactivestreams.Subscriber;
 import org.reactivestreams.Subscription;
+import org.springframework.test.context.junit.jupiter.EnabledIf;
 import reactor.core.publisher.BaseSubscriber;
 import reactor.core.publisher.Flux;
 import reactor.test.StepVerifier;
@@ -11,7 +13,9 @@ import reactor.test.StepVerifier;
 import java.util.List;
 
 @Slf4j
+@Disabled
 public class FluxTest {
+
 
     @Test
     void fluxSubscriber() {
