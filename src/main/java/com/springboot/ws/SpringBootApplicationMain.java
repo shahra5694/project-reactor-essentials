@@ -13,7 +13,7 @@ public class SpringBootApplicationMain {
     public static Logger logger = LoggerFactory.getLogger(SpringBootApplicationMain.class);
 
     @PostConstruct
-    public  init() {
+    public void init() {
         logger.info("this is init method");
     }
 
