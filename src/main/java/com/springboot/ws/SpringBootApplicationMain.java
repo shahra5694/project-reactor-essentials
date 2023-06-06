@@ -18,7 +18,7 @@ public class SpringBootApplicationMain {
     }
 
     public static void main(String [] ar) {
-        logger.info("Application executed");
+        logger.info("Application execution started");
         SpringApplication.run(SpringBootApplicationMain.class);
     }
 }
