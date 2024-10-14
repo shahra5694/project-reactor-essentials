@@ -2,12 +2,4 @@ logging:
   level:
     root: INFO
 
-spring:
-  cloud:
-    gcp:
-      project-id: burner-rahshah
-pubsub:
-  topic: projects/burner-rahshah/topics/pubsubdemoTopic
-  subscription: projects/burner-rahshah/subscriptions/pubsubdemoSubscription
-
 

@@ -11,7 +11,7 @@ public class HashMapInternalFunction {
         map.put(new Key("vi"), 40);
 
         map.forEach((key,value) -> {
-            System.out.println("key hascode " +key.hashCode() +" value ="+value);
+            System.out.println("key hashcode " +key.hashCode() +" value ="+value);
         });
 
     }
@@ -25,12 +25,6 @@ class Key {
         this.key = key;
     }
 
-    @Override
-    public int hashCode()
-    {
-        return key.charAt(0);
-    }
-
     public String getKey() {
         return key;
     }
@@ -39,10 +33,13 @@ class Key {
         this.key = key;
     }
 
+    @Override
+    public int hashCode() {
+        return key.charAt(0);
+    }
 
 //    @Override
-//    public boolean equals(Object obj)
-//    {
+//    public boolean equals(Object obj) {
 //        return getKey().equals(((Key)obj).getKey());
 //    }
 }

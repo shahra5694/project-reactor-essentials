@@ -1,0 +1,1 @@
+Structural design patterns provides solution to create a class structure in different ways.

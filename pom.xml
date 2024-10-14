@@ -12,7 +12,6 @@
     <maven.compiler.target>11</maven.compiler.target>
     <junit-jupiter-api.version>5.7.0-M1</junit-jupiter-api.version>
     <lombok.version>1.18.12</lombok.version>
-    <spring-cloud-gcp.version>3.2.1</spring-cloud-gcp.version>
   </properties>
 
   <parent>
@@ -89,29 +88,12 @@
     </dependency>
 
     <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-gcp-starter-pubsub</artifactId>
-      <version>1.2.8.RELEASE</version>
-    </dependency>
-
-    <dependency>
       <groupId>org.springframework.integration</groupId>
       <artifactId>spring-integration-core</artifactId>
     </dependency>
 
   </dependencies>
 
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>com.google.cloud</groupId>
-        <artifactId>spring-cloud-gcp-dependencies</artifactId>
-        <version>${spring-cloud-gcp.version}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
   <build>
     <finalName>project-reactor-essentials</finalName>
     <plugins>
